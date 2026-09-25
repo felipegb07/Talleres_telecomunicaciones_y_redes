@@ -4,8 +4,9 @@ Este taller tiene la finalidad de proporcionar un conocimiento sobre los diferen
 ## Campus universitario
 Se considera la construcción de un campus universitario donde se implementan diferentes VLAN, las cuales nos permiten establecer conexión de diferentes equipos teniendo en cuenta la red en la que se encuentren
 
-| --- | --- | --- | --- | --- |
+
 | **Descripción** | **VLAN** | **RED IP** | **DIR IP Gateway** | **Puertos** |
+| --- | --- | --- | --- | --- |
 | Estudiantes | 4 | 172.20.0.0/24 | 172.20.0.1 | 1-8 |
 | Profesores | 5 | 172.20.1.0/24 | 172.20.1.1 | 9-16 |
 | Administrativos | 6 | 172.20.2.0/24 | 172.20.2.1 | 17 - 22 | 
