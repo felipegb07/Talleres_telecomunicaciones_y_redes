@@ -4,8 +4,15 @@ Este repositorio tiene la finalidad de presentar todo los talleres realizados en
 ## Estructura del repositorio
 ```txt
 .
-├── Guia Laboratorio 7 de Comunicaciones y Redes - Practica 1 - VLAN (PacketTracer).docx
+.
+├── Imagenes
 ├── LICENSE
-└── README.md
-``` 
-
+├── README.md
+└── Taller_1
+    ├── Guia Laboratorio 7 de Comunicaciones y Redes - Practica 1 - VLAN (PacketTracer).docx
+    ├── Imagenes
+    │   ├── Escenario1.png
+    │   ├── Escenario2.png
+    │   └── Escenario3.png
+    └── README.md
+```
