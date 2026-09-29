@@ -26,3 +26,8 @@ Se hace la propuesta de diferentes escenarios teniendo en cuenta diferentes elem
 
 #### Escenario 3
 ![Escenario 3](Imagenes/Escenario3.png)
+
+### Configuración de IP
+Se hace la configuración de las IP de cada PC teniendo en cuenta los diferentes campos que la componenen, de tal manera que dependiendo del departamento se pueda hacer una configuración del *IPV4 address*, *default gateway*y la *subnet mask*.
+
+Esto se hace teniendo en cuenta la tabla de subredes presente en la parte de arriba, esto lo que nos permite es tener una segmentación de la red permitiendo también que se pueda hacer la adición de más equipos.
