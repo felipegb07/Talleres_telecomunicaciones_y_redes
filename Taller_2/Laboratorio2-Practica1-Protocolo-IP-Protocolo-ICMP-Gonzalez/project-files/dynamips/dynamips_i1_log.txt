@@ -1,0 +1,14 @@
+2026-10-02T19:10:24.726Z HYPERVISOR: Release 0.2.25-amd64/Linux (tag 2023010200)
+2026-10-02T19:10:24.726Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36541.
+2026-10-02T19:10:24.731Z HYPERVISOR: exec_cmd: hypervisor version 
+2026-10-02T19:10:24.732Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/felipe/GNS3/projects/Laboratorio2-Practica1-Protocolo-IP-Protocolo-ICMP-Gonzalez/project-files/dynamips 
+2026-10-02T19:10:24.732Z GENERAL: working_dir=/home/felipe/GNS3/projects/Laboratorio2-Practica1-Protocolo-IP-Protocolo-ICMP-Gonzalez/project-files/dynamips
+2026-10-02T19:10:24.732Z HYPERVISOR: exec_cmd: ethsw create Switch1 
+2026-10-02T19:10:24.877Z HYPERVISOR: exec_cmd: nio create_udp udp-bac35234-16d0-4970-9b85-2fdcbcb3a89a 10001 127.0.0.1 10000 
+2026-10-02T19:10:24.877Z HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-bac35234-16d0-4970-9b85-2fdcbcb3a89a 
+2026-10-02T19:10:24.884Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-bac35234-16d0-4970-9b85-2fdcbcb3a89a 1 
+2026-10-02T19:10:24.968Z HYPERVISOR: exec_cmd: nio create_udp udp-3686e5a3-9752-4dcb-8776-3d2ddffd9d5d 10003 127.0.0.1 10002 
+2026-10-02T19:10:24.968Z HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-3686e5a3-9752-4dcb-8776-3d2ddffd9d5d 
+2026-10-02T19:10:24.985Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-3686e5a3-9752-4dcb-8776-3d2ddffd9d5d 1 
+2026-10-02T20:07:15.434Z HYPERVISOR: exec_cmd: nio bind_filter udp-bac35234-16d0-4970-9b85-2fdcbcb3a89a 2 capture 
+2026-10-02T20:07:15.434Z HYPERVISOR: exec_cmd: nio setup_filter udp-bac35234-16d0-4970-9b85-2fdcbcb3a89a 2 en10mb /home/felipe/GNS3/projects/Laboratorio2-Practica1-Protocolo-IP-Protocolo-ICMP-Gonzalez/project-files/captures/PC1_Ethernet0_to_Switch1_Ethernet0.pcap 
